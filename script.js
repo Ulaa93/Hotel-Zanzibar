@@ -3,6 +3,8 @@ const nodeArray = [
     document.querySelector('.hotel-main'),
     document.querySelector('.hotel-about'),
     document.querySelector('.galery'),
+    document.querySelector('.events'),
+    document.querySelector('.reservation'),
     document.querySelector('.contact')
 ];
 

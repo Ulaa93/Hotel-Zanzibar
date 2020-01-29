@@ -66,8 +66,8 @@ hr {
   font-size: 1.2em;
   vertical-align: middle;
   position: absolute;
-  top: 7em;
-  left: 15em;
+  top: 3em;
+  left: 6em;
 }
 .back a,
 .more a {
@@ -88,7 +88,7 @@ footer {
 .contact .row {
   align-items: center;
 }
-.contact i {
+.contact-info i {
   margin-right: 1em;
   animation: shake 1s;
   animation-iteration-count: infinite;
