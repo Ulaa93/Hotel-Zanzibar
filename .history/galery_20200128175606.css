@@ -1,0 +1,24 @@
+
+.galery{
+    position: relative;
+}
+
+.galery img{
+    width: 100%;
+    margin: 1em;
+    /* overflow: hidden; */
+}
+
+.galery div{
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    /* : 600; */
+    font-family: 'Tangerine', cursive;
+  }
+
+
+  

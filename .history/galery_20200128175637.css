@@ -1,0 +1,19 @@
+
+.galery{
+    position: relative;
+}
+
+.galery img{
+    width: 100%;
+    margin: 1em;
+}
+
+.galery div{
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+  }
