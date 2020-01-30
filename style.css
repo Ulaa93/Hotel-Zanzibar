@@ -84,7 +84,7 @@ footer {
   line-height: 80px;
   font-size: 1.2em;
 }
-.contact .card-body{
+.contact .card-body {
   overflow: hidden;
   padding: 0;
 }
@@ -126,9 +126,31 @@ h3 {
   text-align: center;
 }
 
-@media (max-width:780px){
- .back{
-   left:0;
-   font-size: 1em;
- }
+@media (max-width: 780px) {
+  .back {
+    left: 0;
+    font-size: 1em;
+  }
+  .galery .thumbnail {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hotel-about img {
+    width: 100% !important;
+    margin-bottom: 2em !important;
+  }
+}
+@media (max-width: 550px) {
+  .hotel-main {
+    padding: 50px 0;
+  }
+  .welcome span {
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+  }
+  .welcome h1 {
+    font-size: 5em;
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+  }
 }
