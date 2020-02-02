@@ -84,6 +84,9 @@ footer {
   line-height: 80px;
   font-size: 1.2em;
 }
+.contact, .events, .hotel-about, .galery, .reservation{
+  position: relative;
+}
 .contact .card-body {
   overflow: hidden;
   padding: 0;

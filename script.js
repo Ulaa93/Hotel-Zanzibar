@@ -4,6 +4,7 @@ const nodeArray = [
     document.querySelector('.hotel-about'),
     document.querySelector('.galery'),
     document.querySelector('.events'),
+    document.querySelector('.weather'),
     document.querySelector('.reservation'),
     document.querySelector('.contact')
 ];
