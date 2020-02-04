@@ -30,7 +30,7 @@ let weatherInfo=[
 {}, {}, {}, {}
 ]
 console.log(weatherInfo)
-fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Zanzibar&units=metric&appid=b2f64f9caf0c63a8eb6a5131e431a31e`)
+fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Miami&units=metric&appid=b2f64f9caf0c63a8eb6a5131e431a31e`)
 .then((res)=>{return res.json()})
 .then((data)=>{
   console.log(data)
