@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <link href="./fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet" />
-    <!--load all styles -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -64,10 +63,19 @@
       <div class="back">
         <a href="./index.html"><i class="fas fa-long-arrow-alt-left"></i> Back</a>
       </div>
-      <h2>Events</h2>
+      <h2>Nearby events</h2>
       <hr />
       <hr />
-      <h3>Section under construction...</h3>
+      <div class="loading">
+        <h5 class="text-center">Please wait, API is a little slow..</h5>
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        </div>
+      <div class="events-api card-deck">
+    </div>
     </section>
     <footer>
       <div>Copyright &copy; Urszula Kosior 2020</div>
@@ -87,5 +95,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="http://api.eventful.com/js/api">    </script>
+    <script src="events.js"></script>
   </body>
 </html>
