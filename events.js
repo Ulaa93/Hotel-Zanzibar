@@ -7,7 +7,6 @@ function showEvents() {
   };
   EVDB.API.call('/events/search', oArgs, function(oData) {
     let events = oData.events.event;
-    console.log(events);
     const divEl = document.querySelector('.events-api');
     for (let ev of events) {
       const div = document.createElement('div');

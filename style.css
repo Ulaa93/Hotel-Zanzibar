@@ -172,4 +172,7 @@ h3 {
   .weather img{
     width: 30%;
   }
+  h2{
+    font-size:3em;
+  }
 }
